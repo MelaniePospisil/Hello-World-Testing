@@ -2,7 +2,9 @@
 title: "Hello WORLD"
 author: "Me"
 date: "11/20/2020"
-output: html_document
+output:
+      html_document:
+        keep_md: true
 ---
 
 ```{r setup, include=FALSE}
